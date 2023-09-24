@@ -1,0 +1,242 @@
+:root {
+    --background-color: #FFF;
+    /*top-line background color*/
+    --text-color: #2E2F42;
+    /*top-line menu nav*/
+
+    --section-header-title-color: #2E2F42;
+    --section-title-color: #2E2F42;
+    --section-feature-content-color: #434455;
+    --team-card-color: #2E2F42;
+    --team-card-content: #434455;
+    --top-line: #2E2F42
+}
+
+/*TOP HEADER*/
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-item {
+    display: inline;
+    word-spacing: 40px;
+}
+
+.contacts-item {
+    display: inline;
+}
+
+
+/*top-main*/
+.main {
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    background: #2E2F42;
+}
+
+/*END OF TOP HEADER*/
+
+
+.main h1 {
+    width: 496px;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    padding-top: 188px;
+    padding-right: 472px;
+    padding-bottom: 56px;
+    padding-left: 472px;
+}
+
+/*button*/
+.button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: #FFF;
+
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.feature-section item {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.what-we-do-section {
+    width: 1128px;
+    height: 412px;
+    flex-shrink: 0;
+}
+
+.what-we-do-item {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+}
+
+.team-section {
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+    background: #F4F4FD;
+}
+
+.team-section h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    padding-top: 120px;
+    padding-right: 639px;
+    padding-bottom: 50px;
+    padding-left: 639px;
+}
+
+.team-section {
+    display: inline-block;
+}
+
+
+.team-photo {
+    display: inline-flex;
+    padding-bottom: 0px;
+    padding-right: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    list-style: none;
+    display: inline-block;
+
+}
+
+.h3 {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+/*PORTFOLIO PAGE*/
+
+
+.main-portfolio .main-portfolio-list .li {
+    list-style-type: none;
+}
+
+/*
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3.web {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h3.studio {
+    color:#2E2F42); 
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.top-header {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+    border-bottom: 1px solid;
+    color: #E7E9FC;
+    background: #FFF;
+}
+
+.item {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.top-main {
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    background: #2E2F42;
+}
+
+.top-main h1 {
+    color: #FFF;
+    text-align: center;
+}
+
+
+
+
+.main .main-section1 .p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.footer {
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+*/
